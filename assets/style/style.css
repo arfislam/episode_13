@@ -38,6 +38,9 @@
      --gray-color: #606060;
      --brand-color: #1447ea;
      --white: #ffffff;
+     --light-black: #404040;
+     --black: #252525;
+     --ash-color: #7c8295;
  }
 
  /* #header {
@@ -125,7 +128,7 @@ nav {
 
      font-size: 50px;
      line-height: 50px;
-     color: #1447ea;
+     color: var(--brand-color);
      font-weight: 600;
      font-family: var(--Poppins);
      padding-bottom: 30px;
@@ -134,7 +137,7 @@ nav {
  .heading h2 {
      font-size: 60px;
      line-height: 60px;
-     color: #404040;
+     color: var(--light-black);
      font-weight: 600;
      font-family: "Poppins";
      padding-bottom: 65px;
@@ -148,7 +151,7 @@ nav {
      font-size: 17px;
      letter-spacing: 1px;
      line-height: 17px;
-     color: #ffffff;
+     color: var(--white);
      font-weight: 500;
      font-family: var(--Poppins);
      border-radius: 30px;
@@ -156,6 +159,42 @@ nav {
      /* border: var(--border); */
      padding: 20px 50px;
      text-transform: uppercase;
-     
 
+
+ }
+
+ /* #about {} */
+
+ #about .about_image {
+     padding-top: 145px;
+ }
+
+ #about .about_image img {
+     width: 100%;
+ }
+
+ #about .about_right_text {
+     padding-top: 275px;
+ }
+
+ #about .about_right_text .text_heading h2 {
+     font-size: 40px;
+     line-height: 40px;
+     color: var(--black);
+     font-weight: 600;
+     font-family: var(--Poppins);
+
+ }
+
+ #about .about_right_text .text_heading .fast_line {
+     padding-bottom: 20px;
+ }
+
+ #about .about_right_text p {
+     padding-top: 60px;
+     font-size: 16px;
+     line-height: 28px;
+     color: var(--ash-color);
+     font-weight: 400;
+     font-family: var(--Roboto);
  }
