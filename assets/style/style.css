@@ -1,200 +1,263 @@
- * {
-     margin: 0;
-     padding: 0;
-     outline: 0;
- }
+/* ******************* 
+ genaral part css start 
+ ******************* */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
 
- a {
-     text-decoration: none;
- }
+a {
+    text-decoration: none;
+}
 
- li {
-     list-style: none;
- }
+li {
+    list-style: none;
+}
 
- h1,
- h2,
- h3,
- h4,
- h5,
- h6,
- ul,
- ol {
-     margin: 0;
-     padding: 0;
- }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+    margin: 0;
+    padding: 0;
+}
 
- a,
- i,
- span,
- img {
-     display: inline-block;
- }
+a,
+i,
+span,
+img {
+    display: inline-block;
+}
 
- :root {
-     --border: 1px solid red;
-     --Poppins: 'Poppins', sans-serif;
-     --Roboto: 'Roboto', sans-serif;
-     --gray-color: #606060;
-     --brand-color: #1447ea;
-     --white: #ffffff;
-     --light-black: #404040;
-     --black: #252525;
-     --ash-color: #7c8295;
- }
+/* *********************
+genaral part css end 
+******************** */
 
- /* #header {
+:root {
+    --border: 1px solid red;
+    --Poppins: 'Poppins', sans-serif;
+    --Roboto: 'Roboto', sans-serif;
+    --gray-color: #606060;
+    --brand-color: #1447ea;
+    --white: #ffffff;
+    --light-black: #404040;
+    --black: #252525;
+    --ash-color: #7c8295;
+}
+
+/* **************************
+ header part css start 
+ ************************** */
+/* #header {
     border: var(--border); 
 } */
 
- #header .logo {
-     /* border: var(--border); */
-     padding-top: 42px;
- }
+/* logo part css start  */
 
- #header .logo img {
-     width: 155px;
- }
+#header .logo {
+    /* border: var(--border); */
+    padding-top: 42px;
+}
 
- /* 
+#header .logo img {
+    width: 155px;
+}
+
+/* *************************
+nav part start 
+************************* */
+/* 
 nav {
      border: var(--border); 
 } */
 
- nav ul {
-     display: flex;
-     flex-wrap: wrap;
-     justify-content: flex-end;
-     padding-top: 50px;
-     padding-bottom: 50px;
- }
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 
- /* nav ul li {
+/* nav ul li {
      border: var(--border); 
 } */
 
- nav ul li a {
-     font-size: 16px;
-     line-height: 16px;
-     color: var(--gray-color);
-     font-weight: 500;
-     font-family: var(--Poppins);
-     padding-left: 15px;
-     padding-right: 15px;
+nav ul li a {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--gray-color);
+    font-weight: 500;
+    font-family: var(--Poppins);
+    padding-left: 15px;
+    padding-right: 15px;
+}
 
- }
+nav ul li a:hover {
+    color: var(--brand-color);
+}
 
- nav ul li a:hover {
-     color: var(--brand-color);
- }
+#header .button {
+    /* border: var(--border); */
+    padding-top: 35px;
+}
 
- #header .button {
-     /* border: var(--border); */
-     padding-top: 35px;
+#header .button a {
+    color: var(--white);
+    padding: 20px 30px;
+    border-radius: 30px;
+    filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.2));
+    background-image: linear-gradient(45deg, #1447ea 0%, #03deec 98%);
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    float: right;
+}
 
-
- }
-
- #header .button a {
-     color: var(--white);
-     padding: 20px 30px;
-     border-radius: 30px;
-     filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.2));
-     background-image: linear-gradient(45deg, #1447ea 0%, #03deec 98%);
-     font-size: 16px;
-     line-height: 16px;
-     letter-spacing: 1px;
-     text-transform: uppercase;
-     float: right;
-
- }
-
- #banner {
-     /* border: var(--border); */
-     background-image: url("../images/banner/01.HOME-01\ \(1\).png");
-     background-size: cover;
-     padding-top: 305px;
-     padding-bottom: 175px;
- }
-
- /* #banner .banner_contain {
-     border: var(--border);
-   
-
- } */
-
- #banner h1 {
-     color: var(--brand-color);
-
-     font-size: 50px;
-     line-height: 50px;
-     color: var(--brand-color);
-     font-weight: 600;
-     font-family: var(--Poppins);
-     padding-bottom: 30px;
- }
-
- .heading h2 {
-     font-size: 60px;
-     line-height: 60px;
-     color: var(--light-black);
-     font-weight: 600;
-     font-family: "Poppins";
-     padding-bottom: 65px;
- }
-
- .heading .heading_2 {
-     padding-bottom: 15px;
- }
-
- #banner .banner_contain a {
-     font-size: 17px;
-     letter-spacing: 1px;
-     line-height: 17px;
-     color: var(--white);
-     font-weight: 500;
-     font-family: var(--Poppins);
-     border-radius: 30px;
-     background-color: var(--brand-color);
-     /* border: var(--border); */
-     padding: 20px 50px;
-     text-transform: uppercase;
+/* **************************
+ header part css end
+ ************************** */
 
 
- }
+/* *********************
+ banner part css start 
+ ********************* */
 
- /* #about {} */
+#banner {
+    border: var(--border);
+    background-image: url("../images/banner/bg_image.png");
+    background-size: cover;
+    padding-top: 305px;
+    padding-bottom: 175px;
+    background-position: center;
+    background-repeat: no-repeat;
+}
 
- #about .about_image {
-     padding-top: 145px;
- }
+/* #banner .banner_contain {
+    border: var(--border);
+} */
 
- #about .about_image img {
-     width: 100%;
- }
+#banner h1 {
+    color: var(--brand-color);
 
- #about .about_right_text {
-     padding-top: 275px;
- }
+    font-size: 50px;
+    line-height: 50px;
+    color: var(--brand-color);
+    font-weight: 600;
+    font-family: var(--Poppins);
+    padding-bottom: 30px;
+}
 
- #about .about_right_text .text_heading h2 {
-     font-size: 40px;
-     line-height: 40px;
-     color: var(--black);
-     font-weight: 600;
-     font-family: var(--Poppins);
+#banner .heading h2 {
+    font-size: 60px;
+    line-height: 60px;
+    color: var(--light-black);
+    font-weight: 600;
+    font-family: "Poppins";
+    padding-bottom: 65px;
+}
 
- }
+#banner .heading .heading_2 {
+    padding-bottom: 15px;
+}
 
- #about .about_right_text .text_heading .fast_line {
-     padding-bottom: 20px;
- }
+#banner .banner_contain a {
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 17px;
+    color: var(--white);
+    font-weight: 500;
+    font-family: var(--Poppins);
+    border-radius: 30px;
+    background-color: var(--brand-color);
+    /* border: var(--border); */
+    padding: 20px 50px;
+    text-transform: uppercase;
+}
 
- #about .about_right_text p {
-     padding-top: 60px;
-     font-size: 16px;
-     line-height: 28px;
-     color: var(--ash-color);
-     font-weight: 400;
-     font-family: var(--Roboto);
- }
+/* **************************
+ banner part css end 
+ ************************* */
+
+
+/* ************************
+ about part css start 
+ ************************ */
+
+#about {
+    border: var(--border);
+}
+
+#about .about_image {
+    /* padding-top: 145px; */
+    /* border: var(--border); */
+    margin-top: 140px;
+    /* height: 100%; */
+    height: calc(100% - 140px);
+    background-image: url("../images/about/about_image.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* #about .about_image img {
+    width: 100%;
+} */
+
+/* about right part css start  */
+
+#about .about_right_text {
+    padding-top: 275px;
+    /* border: var(--border); */
+}
+
+#about .about_right_text .text_heading h2 {
+    font-size: 40px;
+    line-height: 40px;
+    color: var(--black);
+    font-weight: 600;
+    font-family: var(--Poppins);
+
+}
+
+#about .about_right_text .text_heading .fast_line {
+    padding-bottom: 20px;
+}
+
+#about .about_right_text p {
+    padding-top: 60px;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--ash-color);
+    font-weight: 400;
+    font-family: var(--Roboto);
+}
+
+#about .covid_instraction {
+    padding-bottom: 110px;
+}
+
+#about .covid_instraction ul {
+    padding-top: 50px;
+    /* padding-bottom: 140px; */
+}
+
+#about .covid_instraction ul li {
+    font-size: 17px;
+    line-height: 17px;
+    color: var(--gray-color);
+    font-weight: 400;
+    font-family: "Font Awesome 5 Free";
+    padding-bottom: 30px;
+    text-transform: capitalize;
+}
+
+/* *************************
+ about part css end 
+ ************************* */
