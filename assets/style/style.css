@@ -49,6 +49,9 @@ genaral part css end
     --black: #252525;
     --ash-color: #7c8295;
     --div-black: #242121;
+    --feaver-black: #454545;
+    --prevention-blue: #002fc7;
+    --tometo: #f86168;
 }
 
 /* **************************
@@ -254,9 +257,17 @@ nav ul li a:hover {
     line-height: 17px;
     color: var(--gray-color);
     font-weight: 400;
-    font-family: "Font Awesome 5 Free";
+    font-family: var(--Roboto);
     padding-bottom: 30px;
     text-transform: capitalize;
+}
+#about .covid_instraction .ruls.left ul li i{
+    color: var(--brand-color);
+    margin-right: 15px;
+}
+#about .covid_instraction .ruls.right ul li i{
+    color: var(--tometo);
+    margin-right: 15px;
 }
 
 /* *************************
@@ -276,8 +287,9 @@ nav ul li a:hover {
     /* background-color: var(--div-black);  */
 
 }
-#daily_report .overlay{
-    background-color: rgba(0,0,0,.6);
+
+#daily_report .overlay {
+    background-color: rgba(0, 0, 0, .6);
 }
 
 /* #daily_report .active_case{
@@ -322,17 +334,13 @@ nav ul li a:hover {
  covid report part css end 
  *************************** */
 
-#symptomps {
-    border: var(--border);
-}
-
-
-
+/* common_heading_css_start */
 .common_heading {
-    border: var(--border);
+    /* border: var(--border); */
     padding-top: 140px;
-    padding-bottom: 80px;
+    padding-bottom: 60px;
     text-align: center;
+
 }
 
 .common_heading h4 {
@@ -343,6 +351,7 @@ nav ul li a:hover {
     font-weight: 400;
     font-family: var(--Poppins);
     padding-bottom: 20px;
+    text-transform: uppercase;
 }
 
 .common_heading h2 {
@@ -350,12 +359,120 @@ nav ul li a:hover {
     line-height: 40px;
     color: var(--black);
     font-weight: 600;
-    text-transform: uppercase;
+    
     font-family: var(--Poppins);
     padding-bottom: 10px;
 }
 
 .common_heading img {
     width: 120px;
+}
 
+.common_heading_white h4,
+.common_heading_white h2 {
+    color: var(--white);
+}
+
+.common_heading {
+    border: var(--border);
+}
+
+/* common_heading_css_end */
+
+
+
+#symptomps {
+    border: var(--border);
+}
+
+#symptomps .feaver {
+    /* border: var(--border); */
+    text-align: center;
+    padding-left: 35px;
+    padding-right: 35px;
+    transition-duration: .3s;
+    border-radius: 25px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: var(--white);
+}
+
+#symptomps .feaver img {
+    height: 130px;
+    padding-top: 40px;
+}
+
+#symptomps .feaver h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--feaver-black);
+    font-weight: 500;
+    font-family: var(--Poppins);
+    padding-top: 35px;
+    padding-bottom: 15px;
+}
+
+#symptomps .feaver p {
+    padding-top: 15px;
+    font-size: 16px;
+    line-height: 28px;
+    color: #7c8295;
+    font-weight: 400;
+    font-family: var(--Roboto);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#symptomps .feaver:hover {
+    background-image: linear-gradient(45deg, #1447ea 0%, #03deec 98%);
+}
+
+#symptomps .feaver:hover h2,
+#symptomps .feaver:hover p {
+    color: white;
+}
+
+/* **************************
+prevention part css start 
+************************** */
+
+#prevention {
+    border: var(--border);
+    background-color: var(--prevention-blue);
+    /* color: var(--white); */
+}
+
+#prevention .avoid {
+    /* border: var(--border); */
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 45px;
+    padding-right: 35px;
+    padding-bottom: 35px;
+}
+
+#prevention .avoid img {
+    height: 150px;
+    padding-bottom: 20px;
+}
+
+#prevention .avoid h2 {
+    font-size: 24px;
+    line-height: 24px;
+    color: var(--white);
+    font-weight: 500;
+    font-family: var(--Poppins);
+    padding-top: 20px;
+    padding-bottom: 15px;
+
+}
+
+#prevention .avoid p {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--white);
+    font-weight: 400;
+    font-family: var(--Roboto);
+    padding-top: 15px;
 }
