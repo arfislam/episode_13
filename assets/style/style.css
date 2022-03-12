@@ -263,35 +263,42 @@ nav ul li a:hover {
  about part css end 
  ************************* */
 
- /* ***************************
+/* ***************************
  covid report part css start 
  *************************** */
 
- #daily_report{
-     border: var(--border);
-     background-image: url("../images/daily_report/daily_report.png");
-     background-position: center;
-     background-repeat: no-repeat;
-     background-size: cover;
+#daily_report {
+    border: var(--border);
+    background-image: url("../images/daily_report/daily_report.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     /* background-color: var(--div-black);  */
 
- }
- /* #daily_report .active_case{
+}
+#daily_report .overlay{
+    background-color: rgba(0,0,0,.6);
+}
+
+/* #daily_report .active_case{
  } */
 
- #daily_report .active_case h2,
- #daily_report .total_death h2,
- #daily_report .recovered h2{
+#daily_report .active_case h2,
+#daily_report .total_death h2,
+#daily_report .recovered h2 {
     font-size: 52px;
     line-height: 52px;
     color: var(--white);
     font-weight: 600;
     font-family: var(--Poppins);
     padding-top: 110px;
+    padding-bottom: 45px;
+    text-align: center;
 }
+
 #daily_report .active_case h3,
 #daily_report .total_death h3,
-#daily_report .recovered h3{
+#daily_report .recovered h3 {
     font-size: 24px;
     letter-spacing: 2px;
     line-height: 24px;
@@ -300,7 +307,9 @@ nav ul li a:hover {
     font-family: var(--Poppins);
     padding-bottom: 110px;
     text-transform: uppercase;
+    text-align: center;
 }
+
 /* #daily_report .total_death {
 
 } */
@@ -313,35 +322,40 @@ nav ul li a:hover {
  covid report part css end 
  *************************** */
 
- #symptomps{
-border: var(--border);
- }
- #symptomps .covid_symptoms{
-border: var(--border);
-padding-top: 140px;
-padding-bottom: 80px;
+#symptomps {
+    border: var(--border);
 }
-#symptomps .covid_symptoms h4{
+
+
+
+.common_heading {
+    border: var(--border);
+    padding-top: 140px;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.common_heading h4 {
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 16px;
     color: var(--gray-color);
     font-weight: 400;
     font-family: var(--Poppins);
-     text-align: center; 
     padding-bottom: 20px;
 }
-#symptomps .covid_symptoms h2{
+
+.common_heading h2 {
     font-size: 40px;
     line-height: 40px;
     color: var(--black);
     font-weight: 600;
     text-transform: uppercase;
     font-family: var(--Poppins);
-     text-align: center;  
     padding-bottom: 10px;
 }
-#symptomps .covid_symptoms img{
-padding-left: 145px;
+
+.common_heading img {
+    width: 120px;
 
 }
