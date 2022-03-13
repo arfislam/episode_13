@@ -46,6 +46,7 @@ genaral part css end
     --brand-color: #1447ea;
     --white: #ffffff;
     --light-black: #404040;
+    --doctors-black: #454545;
     --black: #252525;
     --ash-color: #7c8295;
     --div-black: #242121;
@@ -261,11 +262,13 @@ nav ul li a:hover {
     padding-bottom: 30px;
     text-transform: capitalize;
 }
-#about .covid_instraction .ruls.left ul li i{
+
+#about .covid_instraction .ruls.left ul li i {
     color: var(--brand-color);
     margin-right: 15px;
 }
-#about .covid_instraction .ruls.right ul li i{
+
+#about .covid_instraction .ruls.right ul li i {
     color: var(--tometo);
     margin-right: 15px;
 }
@@ -359,7 +362,7 @@ nav ul li a:hover {
     line-height: 40px;
     color: var(--black);
     font-weight: 600;
-    
+
     font-family: var(--Poppins);
     padding-bottom: 10px;
 }
@@ -476,3 +479,341 @@ prevention part css start
     font-family: var(--Roboto);
     padding-top: 15px;
 }
+
+/* **************************
+prevention part css end
+************************** */
+
+/* ***************************
+doctors part css start 
+*************************** */
+#doctors {
+    border: var(--border);
+    margin-bottom: 170px;
+}
+
+#doctors .doctors_list {
+    border: var(--border);
+    position: relative;
+    margin-bottom: 30px;
+    box-shadow: 0px 10px 80px rgb(207, 187, 187);
+}
+
+#doctors .doctors_list:hover .doctors_info .arrow,
+#doctors .doctors_list:hover .doctors_info .social_icons {
+    visibility: visible;
+    height: unset;
+}
+
+#doctors .doctors_list:hover .doctors_info .social_icons {
+    padding-top: 40px;
+}
+
+
+#doctors .doctors_list img {
+    width: 100%;
+}
+
+#doctors .doctors_list .doctors_info {
+    border: var(--border);
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: var(--white);
+    border-top-left-radius: 106px;
+    border-top-right-radius: 106px;
+    padding-bottom: 30px;
+}
+
+#doctors .doctors_list .doctors_info .arrow {
+    height: 45px;
+    width: 45px;
+    border: var(--border);
+    border-radius: 50%;
+    background-color: var(--white);
+    text-align: center;
+    line-height: 45px;
+    box-shadow: 0px 0px 5px rgba(63, 19, 19, 0.562);
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    height: 0;
+    visibility: hidden;
+}
+
+#doctors .doctors_list .doctors_info .arrow i {
+    color: var(--prevention-blue);
+    font-size: 18px;
+
+}
+
+#doctors .doctors_list .doctors_info .social_icons {
+    border: var(--border);
+    padding-top: 0px;
+    height: 0;
+    visibility: hidden;
+
+}
+
+#doctors .doctors_list .doctors_info .social_icons ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* #doctors .doctors_list .doctors_info .social_icons ul li {}
+
+#doctors .doctors_list .doctors_info .social_icons ul li a {} */
+
+#doctors .doctors_list .doctors_info .social_icons ul li a:hover i {
+    color: var(--brand-color);
+}
+
+#doctors .doctors_list .doctors_info .social_icons ul li a i {
+    margin: 0px 10px;
+    font-size: 16px;
+    color: var(--ash-color);
+    font-weight: 400;
+    transition-duration: .3s;
+}
+
+#doctors .doctors_list .doctors_info h3 {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--doctors-black);
+    font-weight: 600;
+    font-family: var(--Poppins);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+#doctors .doctors_list .doctors_info h4 {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--ash-color);
+    font-weight: 400;
+    font-family: var(--Poppins);
+    text-align: center;
+    padding-top: 5px;
+}
+
+/* ***************************
+doctors part css end
+*************************** */
+
+/* ***************************
+article part css start
+*************************** */
+
+#article {
+    border: var(--border);
+    margin-bottom: 120px;
+    padding-bottom: 20px;
+}
+
+#article .how_to_prevent {
+    border: var(--border);
+    /* margin-bottom: 10px; */
+}
+
+#article .how_to_prevent img {
+    width: 100%;
+}
+
+#article .how_to_prevent .how_to_prevent_link {
+    border: var(--border);
+    display: flex;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    /* padding-left: 30px; */
+}
+
+#article .how_to_prevent .how_to_prevent_link ul {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+}
+
+#article .how_to_prevent .how_to_prevent_link ul li {}
+
+#article .how_to_prevent .how_to_prevent_link ul li a {
+    font-size: 14px;
+    line-height: 14px;
+    color: var(--ash-color);
+    font-weight: 400;
+    font-family: var(--Roboto);
+}
+
+#article .how_to_prevent .how_to_prevent_link ul li a:hover {
+    color: var(--brand-color);
+}
+
+#article .how_to_prevent .how_to_prevent_link ul li a span {
+    padding-left: 15px;
+    padding-right: 15px;
+    /* display: inline-block; */
+}
+
+#article .how_to_prevent .read_more {
+    padding-left: 30px;
+}
+
+
+#article .how_to_prevent .read_more h2 {
+    font-size: 20px;
+    line-height: 26px;
+    color: var(--doctors-black);
+    font-weight: 500;
+    font-family: var(--Poppins);
+    padding-bottom: 15px;
+    /* padding-left: 30px; */
+}
+
+#article .how_to_prevent .read_more a {
+    font-size: 16px;
+    line-height: 16px;
+    text-decoration: underline;
+    color: var(--ash-color);
+    font-weight: 500;
+    font-family: var(--Poppins);
+    padding-bottom: 30px;
+}
+
+#article .how_to_prevent .read_more a:hover {
+    color: var(--brand-color);
+}
+
+/* ***************************
+article part css end
+*************************** */
+
+/* ***************************
+footer part css start
+*************************** */
+
+#footer {
+    border: var(--border);
+    padding-top: 20px;
+    margin-top: 120px;
+}
+
+#footer .footer_left {
+    border: var(--border);
+}
+
+#footer .footer_left p {
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--ash-color);
+    font-weight: 400;
+    font-family: var(--Roboto);
+}
+
+#footer .footer_left .contact {}
+
+#footer .footer_left .contact ul {}
+
+#footer .footer_left .contact ul li {
+    font-size: 16px;
+    line-height: 24px;
+    color: var(--gray-color);
+    font-weight: 400;
+    font-family: var(--Poppins);
+    padding-bottom: 15px;
+}
+
+#footer .footer_left .contact ul li i {
+    margin-right: 15px;
+}
+
+#footer .footer_item {
+    border: var(--border);
+}
+
+#footer .footer_item h2 {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--black);
+    font-weight: 600;
+    font-family: var(--Poppins);
+
+}
+
+#footer .footer_item ul {
+    padding-top: 55px;
+}
+
+#footer .footer_item ul li {}
+
+#footer .footer_item ul li a {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--gray-color);
+    font-family: var(--Poppins);
+    padding-bottom: 10px;
+}
+
+#footer .footer_item ul li a:hover {
+    color: var(--brand-color);
+}
+
+#footer .footer_item ul li a i {
+    margin-right: 15px;
+}
+
+#footer .footer_right {
+    border: var(--border);
+}
+
+#footer .footer_right h2 {
+    font-size: 20px;
+    line-height: 20px;
+    color: var(--black);
+    font-weight: 600;
+    font-family: var(--Poppins);
+}
+
+#footer .footer_right p {
+font-size: 16px;
+line-height: 28px;
+color: var(--ash-color);
+font-weight: 400;
+font-family: var(--Roboto);
+padding-top: 55px;
+}
+#footer .footer_right .footer_social_icons{
+    border: var(--border);
+  
+}
+#footer .footer_right .footer_social_icons ul{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+#footer .footer_right .footer_social_icons ul li{
+    padding-right: 18px;
+}
+#footer .footer_right .footer_social_icons ul li a{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: rgba(26, 194, 206, 0.527);
+    text-align: center;
+    line-height: 45px;
+}
+#footer .footer_right .footer_social_icons ul li a:hover i{
+    color: var(--brand-color);
+}
+#footer .footer_right .footer_social_icons ul li a i{
+
+    color: var(--ash-color);
+    /* font-family: var(--Poppins);  */
+    
+}
+
+
+/* ***************************
+footer part css end
+*************************** */
