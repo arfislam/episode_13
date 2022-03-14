@@ -150,7 +150,6 @@ nav ul li a:hover {
 
 #banner h1 {
     color: var(--brand-color);
-
     font-size: 50px;
     line-height: 50px;
     color: var(--brand-color);
@@ -228,7 +227,6 @@ nav ul li a:hover {
     color: var(--black);
     font-weight: 600;
     font-family: var(--Poppins);
-
 }
 
 #about .about_right_text .text_heading .fast_line {
@@ -288,7 +286,6 @@ nav ul li a:hover {
     background-repeat: no-repeat;
     background-size: cover;
     /* background-color: var(--div-black);  */
-
 }
 
 #daily_report .overlay {
@@ -343,7 +340,6 @@ nav ul li a:hover {
     padding-top: 140px;
     padding-bottom: 60px;
     text-align: center;
-
 }
 
 .common_heading h4 {
@@ -468,7 +464,6 @@ prevention part css start
     font-family: var(--Poppins);
     padding-top: 20px;
     padding-bottom: 15px;
-
 }
 
 #prevention .avoid p {
@@ -545,7 +540,6 @@ doctors part css start
 #doctors .doctors_list .doctors_info .arrow i {
     color: var(--prevention-blue);
     font-size: 18px;
-
 }
 
 #doctors .doctors_list .doctors_info .social_icons {
@@ -553,7 +547,6 @@ doctors part css start
     padding-top: 0px;
     height: 0;
     visibility: hidden;
-
 }
 
 #doctors .doctors_list .doctors_info .social_icons ul {
@@ -752,7 +745,6 @@ footer part css start
     color: var(--black);
     font-weight: 600;
     font-family: var(--Poppins);
-
 }
 
 #footer .footer_item ul {
@@ -798,7 +790,6 @@ footer part css start
     font-weight: 400;
     font-family: var(--Roboto);
     padding-top: 55px;
-
 }
 
 #footer .footer_right .form {
@@ -808,7 +799,6 @@ footer part css start
 #footer .footer_right .form form {
     position: relative;
 }
-
 
 #footer .footer_right .form form input {
     border-radius: 28px;
@@ -852,7 +842,6 @@ footer part css start
 #footer .footer_right .footer_social_icons ul {
     display: flex;
     flex-wrap: wrap;
-
 }
 
 #footer .footer_right .footer_social_icons ul li {
@@ -867,7 +856,6 @@ footer part css start
     text-align: center;
     line-height: 45px;
     box-shadow: 0px 0px 5px rgba(179, 163, 163, 0.562);
-
 }
 
 #footer .footer_right .footer_social_icons ul li a:hover i {
@@ -878,7 +866,6 @@ footer part css start
 
     color: var(--ash-color);
     /* font-family: var(--Poppins);  */
-
 }
 
 
@@ -901,6 +888,4 @@ footer part css end
     font-family: "Poppins";
     text-align: center;
     /* padding-top: 130px; */
-
-
 }
