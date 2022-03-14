@@ -609,8 +609,8 @@ article part css start
 
 #article {
     border: var(--border);
-    margin-bottom: 120px;
-    padding-bottom: 20px;
+    /* margin-bottom: 120px; */
+    padding-bottom: 135px;
 }
 
 #article .how_to_prevent {
@@ -695,13 +695,20 @@ footer part css start
 
 #footer {
     border: var(--border);
-    padding-top: 20px;
-    margin-top: 120px;
+    padding-top: 135px;
+    /* margin-top: 120px; */
+}
+
+/* footer_left part css start */
+#footer .footer_top {
+    padding-bottom: 120px;
 }
 
 #footer .footer_left {
     border: var(--border);
 }
+
+#footer .footer_left img {}
 
 #footer .footer_left p {
     font-size: 16px;
@@ -709,11 +716,16 @@ footer part css start
     color: var(--ash-color);
     font-weight: 400;
     font-family: var(--Roboto);
+    padding-top: 40px;
 }
 
-#footer .footer_left .contact {}
+#footer .footer_left .contact {
+    display: flex;
+}
 
-#footer .footer_left .contact ul {}
+#footer .footer_left .contact .contact_icons ul li {
+    padding-bottom: 40px;
+}
 
 #footer .footer_left .contact ul li {
     font-size: 16px;
@@ -727,6 +739,8 @@ footer part css start
 #footer .footer_left .contact ul li i {
     margin-right: 15px;
 }
+
+/* footer_item part css start  */
 
 #footer .footer_item {
     border: var(--border);
@@ -745,7 +759,7 @@ footer part css start
     padding-top: 55px;
 }
 
-#footer .footer_item ul li {}
+/* #footer .footer_item ul li {} */
 
 #footer .footer_item ul li a {
     font-size: 16px;
@@ -763,6 +777,8 @@ footer part css start
     margin-right: 15px;
 }
 
+/* footer_right part css start  */
+
 #footer .footer_right {
     border: var(--border);
 }
@@ -776,44 +792,115 @@ footer part css start
 }
 
 #footer .footer_right p {
-font-size: 16px;
-line-height: 28px;
-color: var(--ash-color);
-font-weight: 400;
-font-family: var(--Roboto);
-padding-top: 55px;
+    font-size: 16px;
+    line-height: 28px;
+    color: var(--ash-color);
+    font-weight: 400;
+    font-family: var(--Roboto);
+    padding-top: 55px;
+
 }
-#footer .footer_right .footer_social_icons{
+
+#footer .footer_right .form {
+    padding-bottom: 20px;
+}
+
+#footer .footer_right .form form {
+    position: relative;
+}
+
+
+#footer .footer_right .form form input {
+    border-radius: 28px;
+    background-color: var(--white);
+    border: 1px solid var(--brand-color);
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--black);
+    font-weight: 400;
+    font-family: var(--Poppins);
+    padding: 15px 0px;
+    padding-left: 30px;
+    width: 100%;
+}
+
+#footer .footer_right .form form button {
+    width: 45px;
+    height: 45px;
+    border-radius: 23px;
+    background-image: linear-gradient(45deg, #1447ea 0%, #03deec 98%);
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    text-align: center;
+    border: 0;
+}
+
+#footer .footer_right .form form button i {
+    font-size: 18px;
+    line-height: 45px;
+    color: var(--white);
+    /* font-family: ; */
+
+}
+
+#footer .footer_right .footer_social_icons {
     border: var(--border);
-  
+    /* background-color: rgba(243, 235, 235, 0.562); */
 }
-#footer .footer_right .footer_social_icons ul{
+
+#footer .footer_right .footer_social_icons ul {
     display: flex;
     flex-wrap: wrap;
-    
+
 }
-#footer .footer_right .footer_social_icons ul li{
+
+#footer .footer_right .footer_social_icons ul li {
     padding-right: 18px;
 }
-#footer .footer_right .footer_social_icons ul li a{
+
+#footer .footer_right .footer_social_icons ul li a {
     height: 45px;
     width: 45px;
     border-radius: 50%;
-    background-color: rgba(26, 194, 206, 0.527);
+    background-color: var(--white);
     text-align: center;
     line-height: 45px;
+    box-shadow: 0px 0px 5px rgba(179, 163, 163, 0.562);
+
 }
-#footer .footer_right .footer_social_icons ul li a:hover i{
+
+#footer .footer_right .footer_social_icons ul li a:hover i {
     color: var(--brand-color);
 }
-#footer .footer_right .footer_social_icons ul li a i{
+
+#footer .footer_right .footer_social_icons ul li a i {
 
     color: var(--ash-color);
     /* font-family: var(--Poppins);  */
-    
+
 }
 
 
 /* ***************************
 footer part css end
 *************************** */
+
+#copyright {
+    border: var(--border);
+    padding-bottom: 20px;
+    padding-top: 35px;
+    background-color: #f8f9f6;
+}
+
+#copyright .copyright_end {
+    font-size: 16px;
+    line-height: 16px;
+    color: var(--ash-color);
+    font-weight: 400;
+    font-family: "Poppins";
+    text-align: center;
+    /* padding-top: 130px; */
+
+
+}
