@@ -66,7 +66,8 @@ genaral part css end
 
 #header .logo {
     /* border: var(--border); */
-    padding-top: 42px;
+    padding-top: 35px;
+    padding-bottom: 30px;
 }
 
 #header .logo img {
@@ -85,8 +86,8 @@ nav ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: flex-end;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    padding-top: 45px;
+    padding-bottom: 42px;
 }
 
 /* nav ul li {
@@ -109,12 +110,13 @@ nav ul li a:hover {
 
 #header .button {
     /* border: var(--border); */
-    padding-top: 35px;
+    padding-top: 32px;
+    padding-bottom: 25px;
 }
 
 #header .button a {
     color: var(--white);
-    padding: 20px 30px;
+    padding: 17px 28px;
     border-radius: 30px;
     filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.2));
     background-image: linear-gradient(45deg, #1447ea 0%, #03deec 98%);
@@ -138,8 +140,8 @@ nav ul li a:hover {
     border: var(--border);
     background-image: url("../images/banner/bg_image.png");
     background-size: cover;
-    padding-top: 305px;
-    padding-bottom: 175px;
+    padding-top: 295px;
+    padding-bottom: 170px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -230,12 +232,12 @@ nav ul li a:hover {
 }
 
 #about .about_right_text .text_heading .fast_line {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 #about .about_right_text p {
-    padding-top: 60px;
-    font-size: 16px;
+    padding-top: 45px;
+    font-size: 15px;
     line-height: 28px;
     color: var(--ash-color);
     font-weight: 400;
@@ -243,11 +245,11 @@ nav ul li a:hover {
 }
 
 #about .covid_instraction {
-    padding-bottom: 110px;
+    padding-bottom: 115px;
 }
 
 #about .covid_instraction ul {
-    padding-top: 50px;
+    padding-top: 25px;
     /* padding-bottom: 140px; */
 }
 
@@ -257,13 +259,13 @@ nav ul li a:hover {
     color: var(--gray-color);
     font-weight: 400;
     font-family: var(--Roboto);
-    padding-bottom: 30px;
+    padding-bottom: 22px;
     text-transform: capitalize;
 }
 
 #about .covid_instraction .ruls.left ul li i {
     color: var(--brand-color);
-    margin-right: 15px;
+    margin-right: 13px;
 }
 
 #about .covid_instraction .ruls.right ul li i {
@@ -303,21 +305,21 @@ nav ul li a:hover {
     color: var(--white);
     font-weight: 600;
     font-family: var(--Poppins);
-    padding-top: 110px;
-    padding-bottom: 45px;
+    padding-top: 100px;
+    padding-bottom: 34px;
     text-align: center;
 }
 
 #daily_report .active_case h3,
 #daily_report .total_death h3,
 #daily_report .recovered h3 {
-    font-size: 24px;
+    font-size: 22px;
     letter-spacing: 2px;
     line-height: 24px;
     color: var(--white);
     font-weight: 500;
     font-family: var(--Poppins);
-    padding-bottom: 110px;
+    padding-bottom: 100px;
     text-transform: uppercase;
     text-align: center;
 }
@@ -337,7 +339,7 @@ nav ul li a:hover {
 /* common_heading_css_start */
 .common_heading {
     /* border: var(--border); */
-    padding-top: 140px;
+    padding-top: 135px;
     padding-bottom: 60px;
     text-align: center;
 }
@@ -349,7 +351,7 @@ nav ul li a:hover {
     color: var(--gray-color);
     font-weight: 400;
     font-family: var(--Poppins);
-    padding-bottom: 20px;
+    padding-bottom: 13px;
     text-transform: uppercase;
 }
 
@@ -358,7 +360,6 @@ nav ul li a:hover {
     line-height: 40px;
     color: var(--black);
     font-weight: 600;
-
     font-family: var(--Poppins);
     padding-bottom: 10px;
 }
@@ -382,10 +383,11 @@ nav ul li a:hover {
 
 #symptomps {
     border: var(--border);
+    padding-bottom: 125px;
 }
 
 #symptomps .feaver {
-    /* border: var(--border); */
+     border: var(--border); 
     text-align: center;
     padding-left: 35px;
     padding-right: 35px;
@@ -408,18 +410,18 @@ nav ul li a:hover {
     font-weight: 500;
     font-family: var(--Poppins);
     padding-top: 35px;
-    padding-bottom: 15px;
+    padding-bottom: 5px;
 }
 
 #symptomps .feaver p {
-    padding-top: 15px;
-    font-size: 16px;
+    padding-top: 10px;
+    font-size: 15px;
     line-height: 28px;
     color: #7c8295;
     font-weight: 400;
     font-family: var(--Roboto);
     text-align: center;
-    padding-bottom: 40px;
+    padding-bottom: 18px;
 }
 
 #symptomps .feaver:hover {
