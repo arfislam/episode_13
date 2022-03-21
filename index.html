@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="stylesheet" href="./assets/style/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/style/style.css">
+    <link rel="stylesheet" href="./assets/style/respons.css">
 </head>
 
 <body>
@@ -21,15 +22,15 @@
     <header id="header">
         <div class="container">
             <div class="row">
-                <div class="col-2">
+                <div class="col-sm-12 col-md-12 col-lg-2">
                     <div class="logo">
                         <img src="./assets/images/header/logo.png" alt="">
                     </div>
                 </div>
-                <div class="col-8">
+                <div class="col-sm-12 col-md-8 col-lg-8 order-3 order-sm-2">
                     <!-- nav part start -->
                     <nav>
-                        <ul>
+                        <ul id="nav_link">
                             <li><a href="#">Home</a></li>
                             <li><a href="#">About</a></li>
                             <li><a href="#">Department</a></li>
@@ -39,10 +40,13 @@
                     </nav>
 
                 </div>
-                <div class="col-2">
+                <div class="col-sm-12 col-md-2 col-lg-2 order-2 order-sm-3">
                     <div class="button">
                         <a href="#">About viras</a>
                     </div>
+                    <button onclick="nav_link.classList.toggle('active')" class="float-end d-sm-none d-block btn btn-primary mb-4">
+                        <i class="fa-solid fa-align-right"></i>
+                    </button>
                 </div>
             </div>
         </div>
@@ -53,7 +57,7 @@
     <section id="banner">
         <div class="container">
             <div class="row">
-                <div class="col-5">
+                <div class="col-sm-12 col-md-5 col-lg-5">
                     <div class="banner_contain">
                         <h1>
                             COVID-19
@@ -78,15 +82,15 @@
     <section id="about">
         <div class="container">
             <div class="row">
-                <div class="col-5" style="border: 1px solid green;">
+                <div class="col-sm-12 col-md-5 col-lg-5">
                     <div class="about_image">
                         <!-- <img src="./assets/images/about/about image.png" alt=""> -->
                     </div>
                 </div>
-                <div class="col-2">
+                <div class="col-sm-0 col-md-2 col-lg-2">
 
                 </div>
-                <div class="col-5">
+                <div class="col-sm-12 col-md-5 col-lg-5">
                     <div class="about_right_text">
                         <div class="text_heading">
                             <h2 class="fast_line">
@@ -144,7 +148,7 @@
 
             <div class="container">
                 <div class="row">
-                    <div class="col-2">
+                    <div class="col-sm-5 col-md-2 col-lg-2">
                         <div class="active_case">
                             <h2>
                                 362256
@@ -154,10 +158,10 @@
                             </h3>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-2 col-md-3 col-lg-3">
 
                     </div>
-                    <div class="col-2">
+                    <div class="col-sm-5 col-md-2 col-lg-2">
                         <div class="total_death">
                             <h2>
                                 86457
@@ -167,10 +171,10 @@
                             </h3>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-0 col-md-3 col-lg-3">
 
                     </div>
-                    <div class="col-2">
+                    <div class="col-sm-5 col-md-2 col-lg-2">
                         <div class="recovered">
                             <h2>
                                 132332
@@ -201,7 +205,7 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="feaver">
                             <img src="./assets/images/feaver/feaver.png" alt="">
                             <h2>
@@ -213,7 +217,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="feaver">
                             <img src="./assets/images/feaver/feaver_2.png" alt="">
                             <h2>
@@ -225,7 +229,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="feaver">
                             <img src="./assets/images/feaver/feaver_3.png" alt="">
                             <h2>
@@ -237,7 +241,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="feaver">
                             <img src="./assets/images/feaver/feaver_4.png" alt="">
                             <h2>
@@ -249,7 +253,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="feaver">
                             <img src="./assets/images/feaver/feaver_5.png" alt="">
                             <h2>
@@ -261,7 +265,7 @@
                             </p>
                         </div>
                     </div>
-                    <div class="col-4">
+                    <div class="col-sm-6 col-md-4 col-lg-4">
                         <div class="feaver">
                             <img src="./assets/images/feaver/feaver_6.png" alt="">
                             <h2>
@@ -295,7 +299,7 @@
                         <img src="./assets/images/prevention/prevention heading.png" alt="">
                     </div>
                     <div class="row">
-                        <div class="col-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4">
                             <div class="avoid">
                                 <img src="./assets/images/prevention/prevention_1.png" alt="">
                                 <h2>
@@ -309,7 +313,7 @@
 
 
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4">
                             <div class="avoid">
                                 <img src="./assets/images/prevention/prevention_1.png" alt="">
                                 <h2>
@@ -323,7 +327,7 @@
 
 
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4">
                             <div class="avoid">
                                 <img src="./assets/images/prevention/prevention_1.png" alt="">
                                 <h2>
@@ -337,7 +341,7 @@
 
 
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4">
                             <div class="avoid">
                                 <img src="./assets/images/prevention/prevention_1.png" alt="">
                                 <h2>
@@ -351,7 +355,7 @@
 
 
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4">
                             <div class="avoid">
                                 <img src="./assets/images/prevention/prevention_1.png" alt="">
                                 <h2>
@@ -365,7 +369,7 @@
 
 
                         </div>
-                        <div class="col-4">
+                        <div class="col-sm-6 col-md-4 col-lg-4">
                             <div class="avoid">
                                 <img src="./assets/images/prevention/prevention_1.png" alt="">
                                 <h2>
@@ -403,7 +407,7 @@
                         <img src="./assets/images/symptoms/symptoms_images.png" alt="">
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-4 col-lg-4">
                     <div class="doctors_list">
                         <img src="./assets/images/doctors/doctors_1.png" alt="">
                         <div class="doctors_info">
@@ -422,7 +426,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-4 col-lg-4">
                     <div class="doctors_list">
                         <img src="./assets/images/doctors/doctors_2.png" alt="">
                         <div class="doctors_info">
@@ -441,7 +445,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-12 col-md-4 col-lg-4">
                     <div class="doctors_list">
                         <img src="./assets/images/doctors/doctors_3.png" alt="">
                         <div class="doctors_info">
@@ -482,7 +486,7 @@
                     </div>
                 </div>
 
-                <div class="col-4">
+                <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="how_to_prevent">
                         <img src="./assets/images/article/article_1.png" alt="">
                         <div class="how_to_prevent_link">
@@ -500,7 +504,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="how_to_prevent">
                         <img src="./assets/images/article/article_2.png" alt="">
                         <div class="how_to_prevent_link">
@@ -518,7 +522,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-sm-6 col-md-4 col-lg-4">
                     <div class="how_to_prevent">
                         <img src="./assets/images/article/article_3.png" alt="">
                         <div class="how_to_prevent_link">
@@ -546,8 +550,7 @@
         <div class="container">
             <div class="footer_top">
                 <div class="row">
-
-                    <div class="col-3">
+                    <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="footer_left">
                             <img src="./assets/images/footer/footer logo.png" alt="">
                             <p>
@@ -571,7 +574,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="footer_item">
                             <h2>
                                 Our Department
@@ -586,7 +589,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="footer_item">
                             <h2>
                                 Important Link
@@ -602,7 +605,7 @@
                             </ul>
                         </div>
                     </div>
-                    <div class="col-3">
+                    <div class="col-sm-6 col-md-3 col-lg-3">
                         <div class="footer_right">
                             <h2>
                                 Newsletter

@@ -137,7 +137,7 @@ nav ul li a:hover {
  ********************* */
 
 #banner {
-    border: var(--border);
+    /* border: var(--border); */
     background-image: url("../images/banner/bg_image.png");
     background-size: cover;
     padding-top: 295px;
@@ -210,6 +210,7 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    height: 580px;
 }
 
 /* #about .about_image img {
@@ -282,7 +283,7 @@ nav ul li a:hover {
  *************************** */
 
 #daily_report {
-    border: var(--border);
+    /* border: var(--border); */
     background-image: url("../images/daily_report/daily_report.png");
     background-position: center;
     background-repeat: no-repeat;
@@ -374,7 +375,7 @@ nav ul li a:hover {
 }
 
 .common_heading {
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 /* common_heading_css_end */
@@ -382,12 +383,12 @@ nav ul li a:hover {
 
 
 #symptomps {
-    border: var(--border);
+    /* border: var(--border); */
     padding-bottom: 125px;
 }
 
 #symptomps .feaver {
-     border: var(--border); 
+     /* border: var(--border);  */
     text-align: center;
     padding-left: 35px;
     padding-right: 35px;
@@ -438,7 +439,7 @@ prevention part css start
 ************************** */
 
 #prevention {
-    border: var(--border);
+    /* border: var(--border); */
     background-color: var(--prevention-blue);
     /* color: var(--white); */
 }
@@ -485,12 +486,12 @@ prevention part css end
 doctors part css start 
 *************************** */
 #doctors {
-    border: var(--border);
+    /* border: var(--border); */
     margin-bottom: 170px;
 }
 
 #doctors .doctors_list {
-    border: var(--border);
+    /* border: var(--border); */
     position: relative;
     margin-bottom: 30px;
     box-shadow: 0px 10px 80px rgb(207, 187, 187);
@@ -512,7 +513,7 @@ doctors part css start
 }
 
 #doctors .doctors_list .doctors_info {
-    border: var(--border);
+    /* border: var(--border); */
     position: absolute;
     width: 100%;
     bottom: 0;
@@ -526,7 +527,7 @@ doctors part css start
 #doctors .doctors_list .doctors_info .arrow {
     height: 45px;
     width: 45px;
-    border: var(--border);
+    /* border: var(--border); */
     border-radius: 50%;
     background-color: var(--white);
     text-align: center;
@@ -545,7 +546,7 @@ doctors part css start
 }
 
 #doctors .doctors_list .doctors_info .social_icons {
-    border: var(--border);
+    /* border: var(--border); */
     padding-top: 0px;
     height: 0;
     visibility: hidden;
@@ -603,13 +604,13 @@ article part css start
 *************************** */
 
 #article {
-    border: var(--border);
+    /* border: var(--border); */
     /* margin-bottom: 120px; */
     padding-bottom: 135px;
 }
 
 #article .how_to_prevent {
-    border: var(--border);
+    /* border: var(--border); */
     /* margin-bottom: 10px; */
 }
 
@@ -618,7 +619,7 @@ article part css start
 }
 
 #article .how_to_prevent .how_to_prevent_link {
-    border: var(--border);
+    /* border: var(--border); */
     display: flex;
     padding-top: 30px;
     padding-bottom: 15px;
@@ -689,7 +690,7 @@ footer part css start
 *************************** */
 
 #footer {
-    border: var(--border);
+    /* border: var(--border); */
     padding-top: 135px;
     /* margin-top: 120px; */
 }
@@ -700,7 +701,7 @@ footer part css start
 }
 
 #footer .footer_left {
-    border: var(--border);
+    /* border: var(--border); */
 }
 
 #footer .footer_left img {}
@@ -737,9 +738,9 @@ footer part css start
 
 /* footer_item part css start  */
 
-#footer .footer_item {
-    border: var(--border);
-}
+/* #footer .footer_item {
+     border: var(--border);
+}  */
 
 #footer .footer_item h2 {
     font-size: 20px;
@@ -773,9 +774,9 @@ footer part css start
 
 /* footer_right part css start  */
 
-#footer .footer_right {
+/* #footer .footer_right {
     border: var(--border);
-}
+} */
 
 #footer .footer_right h2 {
     font-size: 20px;

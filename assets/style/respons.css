@@ -1,0 +1,279 @@
+@media screen and (max-width: 575px) {
+    #header .logo {
+        padding-top: 35px;
+        padding-bottom: 30px;
+        text-align: center;
+    }
+
+    nav {
+        position: relative;
+    }
+
+    nav ul {
+
+        justify-content: flex-end;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        flex-direction: column;
+        /* border: var(--border); */
+        position: absolute;
+        right: 0;
+        box-shadow: 0px 0px 5px black;
+        background-color: white;
+        display: none;
+    }
+
+    nav ul.active {
+        display: block;
+    }
+
+    #header .button {
+        /* border: var(--border); */
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+
+    #header .button a {
+        float: left;
+        padding: 13px 14px;
+    }
+
+    #banner {
+        padding-top: 27px;
+        padding-bottom: 20px;
+
+    }
+
+    #banner h1 {
+        font-size: 32px;
+        line-height: 2px;
+        padding-bottom: 24px;
+        text-align: center;
+
+    }
+
+    #banner .heading h2 {
+        font-size: 40px;
+        line-height: 32px;
+        padding-bottom: 25px;
+    }
+
+    #header .button {}
+
+    #banner .banner_contain {
+        text-align: center;
+    }
+
+    #banner .banner_contain a {
+        font-size: 10px;
+        padding: 10px 12px;
+        letter-spacing: 0px;
+    }
+
+    #about .about_image {
+        margin-top: 15px;
+        height: 282px;
+    }
+
+    #about .about_right_text {
+        padding-top: 20px;
+    }
+
+    #about .about_right_text .text_heading h2 {
+        font-size: 30px;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    #about .about_right_text p {
+        padding-top: 13px;
+        font-size: 12px;
+        line-height: 21px;
+    }
+
+    #about .covid_instraction {
+        padding-bottom: 2px;
+    }
+
+    #about .covid_instraction ul {
+        padding-top: 25px;
+
+    }
+
+    #daily_report .active_case h2,
+    #daily_report .total_death h2,
+    #daily_report .recovered h2 {
+        font-size: 30px;
+        line-height: 40px;
+        padding-top: 15px;
+        padding-bottom: 12px;
+    }
+
+    #daily_report .active_case h3,
+    #daily_report .total_death h3,
+    #daily_report .recovered h3 {
+        font-size: 12px;
+        letter-spacing: 0px;
+        line-height: 0px;
+        padding-bottom: 15px;
+    }
+
+    .common_heading {
+        /* border: var(--border); */
+        padding-top: 20px;
+        padding-bottom: 16px;
+    }
+
+    .common_heading h4 {
+        font-size: 13px;
+        letter-spacing: 0px;
+        line-height: 16px;
+        padding-bottom: 5px;
+
+    }
+
+    .common_heading h2 {
+        font-size: 30px;
+        line-height: 30px;
+        padding-bottom: 10px;
+    }
+
+    #symptomps {
+        padding-bottom: 4px;
+    }
+
+    #symptomps .feaver {
+        padding-left: 15px;
+        padding-right: 15px;
+        border-radius: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    #symptomps .feaver img {
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    #symptomps .feaver h2 {
+        font-size: 19px;
+        line-height: 9px;
+        padding-top: 14px;
+        padding-bottom: 0px;
+    }
+
+    #symptomps .feaver p {
+        padding-top: 10px;
+        font-size: 12px;
+        line-height: 20px;
+        padding-bottom: 0px;
+    }
+
+    #prevention .avoid {
+        margin-top: 15px;
+        margin-bottom: 10px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 0px;
+    }
+
+    #prevention .avoid img {
+        height: 100px;
+        padding-bottom: 10px;
+    }
+
+    #prevention .avoid h2 {
+        font-size: 20px;
+        line-height: 10px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+
+    #prevention .avoid p {
+        font-size: 12px;
+        line-height: 20px;
+        padding-top: 10px;
+    }
+
+    #doctors {
+        margin-bottom: 10px;
+    }
+    #article {
+        padding-bottom: 5px;
+    }
+    #article .how_to_prevent .how_to_prevent_link {
+        padding-top: 5px;
+        padding-bottom: 5px;
+    }
+    #article .how_to_prevent .read_more {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    #article .how_to_prevent .read_more h2 {
+        font-size: 16px;
+        line-height: 23px;
+        padding-bottom: 5px;
+        text-align: center;
+    }
+    #article .how_to_prevent .read_more a {
+        font-size: 13px;
+        line-height: 16px;
+        padding-bottom: 13px;
+    }
+    #article .how_to_prevent .read_more {
+        text-align: center;
+    }
+    #footer {
+        padding-top: 5px;
+    }
+    #footer .footer_left img {
+        padding-left: 65px;
+    }
+    #footer .footer_left p {
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 15px;
+        text-align: justify;
+    }
+    #footer .footer_left .contact ul li {
+        font-size: 15px;
+        line-height: 21px;
+        padding-bottom: 5px;
+    }
+    #footer .footer_left .contact .contact_icons ul li {
+        padding-bottom: 28px;
+    }
+    #footer .footer_item h2 {
+        font-size: 16px;
+        line-height: 20px;
+       text-align: center;
+       padding-top: 10px;
+    }
+    #footer .footer_item ul {
+        padding-top: 15px;
+    }
+    #footer .footer_item ul li a {
+        font-size: 14px;
+        line-height: 14px;
+        padding-bottom: 5px;
+    }
+    #footer .footer_right h2 {
+        font-size: 16px;
+        line-height: 16px;
+       text-align: center;
+       padding-top: 10px;
+    }
+    #footer .footer_right p {
+        font-size: 15px;
+        line-height: 20px;
+        padding-top: 11px;
+    }
+    #footer .footer_top {
+        padding-bottom: 16px;
+    }
+    #copyright {
+        padding-bottom: 5px;
+        padding-top: 10px;
+    }
+}
