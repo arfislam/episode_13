@@ -196,9 +196,9 @@ nav ul li a:hover {
  about part css start 
  ************************ */
 
-#about {
+/* #about {
     border: var(--border);
-}
+} */
 
 #about .about_image {
     /* padding-top: 145px; */

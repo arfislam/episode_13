@@ -80,8 +80,8 @@
     }
 
     #about .about_right_text .text_heading h2 {
-        font-size: 30px;
-        line-height: 25px;
+        font-size: 20px;
+        line-height: 20px;
         text-align: center;
     }
 
@@ -89,6 +89,7 @@
         padding-top: 13px;
         font-size: 12px;
         line-height: 21px;
+        text-align: justify;
     }
 
     #about .covid_instraction {
@@ -96,16 +97,27 @@
     }
 
     #about .covid_instraction ul {
-        padding-top: 25px;
+        padding-top: 5px;
 
+    }
+    #about .covid_instraction ul li {
+        font-size: 12px;
+        line-height: 7px;
+        padding-bottom: 12px;
+    }
+    #about .covid_instraction .ruls.left ul li i {
+        margin-right: 8px;
+    }
+    #about .covid_instraction .ruls.right ul li i {
+        margin-right: 8px;
     }
 
     #daily_report .active_case h2,
     #daily_report .total_death h2,
     #daily_report .recovered h2 {
-        font-size: 30px;
-        line-height: 40px;
-        padding-top: 15px;
+        font-size: 20px;
+        line-height: 20px;
+        padding-top: 10px;
         padding-bottom: 12px;
     }
 
@@ -133,8 +145,8 @@
     }
 
     .common_heading h2 {
-        font-size: 30px;
-        line-height: 30px;
+        font-size: 20px;
+        line-height: 20px;
         padding-bottom: 10px;
     }
 
@@ -147,7 +159,7 @@
         padding-right: 15px;
         border-radius: 15px;
         margin-top: 5px;
-        margin-bottom: 5px;
+        margin-bottom: 0px;
 
     }
 
@@ -166,7 +178,7 @@
     #symptomps .feaver p {
         padding-top: 10px;
         font-size: 12px;
-        line-height: 20px;
+        line-height: 16px;
         padding-bottom: 0px;
     }
 
@@ -199,8 +211,18 @@
     #doctors {
         margin-bottom: 10px;
     }
+    #doctors .doctors_list {
+        margin-bottom: 0px;
+    }
+    #doctors .doctors_list .doctors_info h3 {
+        font-size: 18px;
+        line-height: 18px;
+    }
     #article {
         padding-bottom: 5px;
+    }
+    #article .how_to_prevent {
+        margin-bottom: 30px;
     }
     #article .how_to_prevent .how_to_prevent_link {
         padding-top: 5px;
@@ -231,27 +253,26 @@
         padding-left: 65px;
     }
     #footer .footer_left p {
-        font-size: 15px;
+        font-size: 12px;
         line-height: 20px;
         padding-top: 15px;
         text-align: justify;
     }
     #footer .footer_left .contact ul li {
-        font-size: 15px;
-        line-height: 21px;
+        font-size: 12px;
+        line-height: 16px;
         padding-bottom: 5px;
     }
     #footer .footer_left .contact .contact_icons ul li {
-        padding-bottom: 28px;
+        padding-bottom: 6px;
     }
     #footer .footer_item h2 {
         font-size: 16px;
         line-height: 20px;
-       text-align: center;
-       padding-top: 10px;
+       padding-top: 30px;
     }
     #footer .footer_item ul {
-        padding-top: 15px;
+        padding-top: 5px;
     }
     #footer .footer_item ul li a {
         font-size: 14px;
