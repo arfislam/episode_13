@@ -837,10 +837,12 @@ footer part css start
 
 }
 
-#footer .footer_right .footer_social_icons {
-    border: var(--border);
+ #footer .footer_right .footer_social_icons {
+    /* border: var(--border); */
     /* background-color: rgba(243, 235, 235, 0.562); */
-}
+    display: flex;
+} 
+
 
 #footer .footer_right .footer_social_icons ul {
     display: flex;
@@ -877,7 +879,7 @@ footer part css end
 *************************** */
 
 #copyright {
-    border: var(--border);
+    /* border: var(--border); */
     padding-bottom: 20px;
     padding-top: 35px;
     background-color: #f8f9f6;

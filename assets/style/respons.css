@@ -1,7 +1,7 @@
 @media screen and (max-width: 575px) {
     #header .logo {
-        padding-top: 35px;
-        padding-bottom: 30px;
+        padding-top: 20px;
+        padding-bottom: 20px;
         text-align: center;
     }
 
@@ -30,7 +30,7 @@
     #header .button {
         /* border: var(--border); */
         padding-top: 15px;
-        padding-bottom: 5px;
+        padding-bottom: 15px;
     }
 
     #header .button a {
@@ -45,20 +45,19 @@
     }
 
     #banner h1 {
-        font-size: 32px;
+        font-size: 20px;
         line-height: 2px;
-        padding-bottom: 24px;
+        padding-bottom: 25px;
         text-align: center;
 
     }
 
     #banner .heading h2 {
-        font-size: 40px;
-        line-height: 32px;
-        padding-bottom: 25px;
+        font-size: 20px;
+        line-height: 10px;
+        padding-bottom: 15px;
     }
 
-    #header .button {}
 
     #banner .banner_contain {
         text-align: center;
@@ -283,18 +282,39 @@
         font-size: 16px;
         line-height: 16px;
        text-align: center;
-       padding-top: 10px;
+       padding-top: 30px;
     }
     #footer .footer_right p {
         font-size: 15px;
         line-height: 20px;
         padding-top: 11px;
     }
+    #footer .footer_right .form form input {
+        font-size: 12px;
+        line-height: 12px;
+        padding: 8px 0px;
+        padding-left: 35px;
+    }
     #footer .footer_top {
         padding-bottom: 16px;
+    }
+    #footer .footer_right .form {
+        padding-bottom: 10px;
+    }
+    #footer .footer_right .form form button i {
+        line-height: 25px;
+    }
+    #footer .footer_right .form form button {
+        width: 30px;
+        height: 30px;
+        right: 5px;
+        top: 3px;
     }
     #copyright {
         padding-bottom: 5px;
         padding-top: 10px;
+    }
+    #copyright .copyright_end {
+        font-size: 14px;
     }
 }
